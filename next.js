@@ -1,8 +1,6 @@
-let y = o;
+function plusPlus(orig_x){
+    let orig_x_coerced = Number (orig_x);
 
-function Uvecaj(){
-    y++;
-
+    x = orig_x_coerced +1;
+    return x
 }
- Uveccaj();
- console.log(y);
